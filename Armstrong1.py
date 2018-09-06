@@ -1,5 +1,4 @@
-a=int(raw_input())
-b=int(raw_input())
+a,b=map(int,raw_input().split())
 def arms(a):
 	b=a%10
 	c=a/10
