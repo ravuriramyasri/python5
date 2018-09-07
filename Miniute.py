@@ -1,4 +1,4 @@
-min=input("enter time in miniute\n")
+min=input()
 hour=min/60
 min=min%60
 print(str(hour)+" "+str(min))
