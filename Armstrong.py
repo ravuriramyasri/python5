@@ -1,10 +1,11 @@
-a=int(raw_input())
-b=a%10
-c=a/10
-d=c%10
-e=c/10
-x=b**3+d**3+e**3
-if(x==a):
-	print("yes")
-else:
+sum=0
+num=int(raw_input())
+temp=num
+while temp > 0:
+	digit=temp % 10
+	sum +=digit ** 3
+	temp //=10
+  if num == sum:
+        print("yes")
+  else:
 	print("no")
