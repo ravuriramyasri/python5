@@ -1,2 +1,2 @@
-c=str(raw_input())
-print len(c)
+f=str(raw_input())
+print len(f)
