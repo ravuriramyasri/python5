@@ -1,1 +1,1 @@
-print len([i for i in raw_input() if i in map(str,range(10))])
+print len([s for s in raw_input() if s in map(str,range(1000))])
