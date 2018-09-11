@@ -1,2 +1,2 @@
 f=str(raw_input())
-print len(f)
+print len(f)-a.count(' ')
