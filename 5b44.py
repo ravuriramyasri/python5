@@ -1,5 +1,5 @@
 s=int(input(""))
-if a in range(1,10):
+if  s in range(1,10):
      print("yes")
 else:
       print("no")
