@@ -1,5 +1,5 @@
 s=int(input(""))
-if s>1 and s<9:
+if a in range(1,10):
      print("yes")
 else:
       print("no")
