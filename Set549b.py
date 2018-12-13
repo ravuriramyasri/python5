@@ -1,3 +1,3 @@
-a=int(raw_input())
-b=int(raw_input())
-print(a+b)
+f=int(raw_input())
+g=int(raw_input())
+print(f+g)
