@@ -1,4 +1,4 @@
-i=raw_input()
+j=raw_input()
 dots="."
-output=i+dots
+output=j+dots
 print output
