@@ -1,13 +1,13 @@
 def countd(n):
-c=0
-while(n!=0):
-n//=10
-c+=1
-print(c)
+	h=0
+	while(n!=0):
+		n//=10
+		h+=1
+	print(h)
 def main():
-try:
-n=int(input())
-countd(n)
-except:
-print('invalid')
+	try:
+		n=int(input())
+		countd(n)
+	except:
+		print('invalid')
 main()
