@@ -1,3 +1,3 @@
 s=raw_input()
-if len(s)<=100000:
-	print(s[::-1])
+k=s[::-1]
+print k
