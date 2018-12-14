@@ -1,3 +1,8 @@
-f=int(raw_input())
-g=int(raw_input())
-print(f+g)
+def main():
+	try:
+		a=int(input())
+		b=int(input())
+		print(a+b)
+	except:
+		print('invalid')
+main()
