@@ -1,7 +1,7 @@
 def main():
 	try:
-		n=input()
-		if int(n):
+		k=input()
+		if int(k):
 			print "yes"
 	except:
 		print "no"
